@@ -6,16 +6,21 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "functions:serve": "netlify functions:serve"
   },
   "dependencies": {
+    "bulma": "^1.0.0",
+    "pg": "^8.11.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "swr": "^2.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
+    "netlify-cli": "^17.23.2",
     "prettier": "^3.2.5",
     "vite": "^5.2.11"
   }
